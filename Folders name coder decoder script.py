@@ -216,10 +216,7 @@ while True:
     
     # Solicitar modo de operación
     while True:
-        print("1. Encode")
-        print("2. Decode")
-        
-        opcion_val = input("Select option: ").strip()
+        opcion_val = input("Select option (Encode: 1 , Decode: 2): ").strip()
         
         # Validar opción ingresada
         if opcion_val in ['1', '2']:
