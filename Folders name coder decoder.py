@@ -3,7 +3,7 @@ import shutil # Copia de directorios
 
 # VARIABLES GLOBALES
 # Lista de caracteres en orden no secuencial
-lista_caracteres = ['b','0','j','R','f','H','g','9','a','1','k','S','m','2','ñ','o','3','p','q','4','r','s','t','5','u','v','w','6','x','y','z','7','A','B','C','8','D','E','F','G','I','J','K','L','M','N','O','P','Q','U','V','W','X','Y','Z','á','é','í','ó','ú','Á','É','Í','Ó','Ú'] # Caracteres mezclados para codificación
+lista_caracteres = ['b','0','j','R','f','H','g','9','a','1','k','S','m','2','ñ','o','3','p','q','4','r','s','t','5','u','v','w','6','x','y','z','7','A','B','C','8','D','E','F','G','I','J','K','L','M','N','O','P','Q','U','V','W','X','Y','Z','á','é','í','ó','ú','Á','É','Í','Ó','Ú','.','-'] # Caracteres mezclados para codificación
 diccionario_valores = {} # Diccionario estático: carácter → número
 diccionario_equivalencias = {} # Diccionario instancia: carácter → equivalente
 
